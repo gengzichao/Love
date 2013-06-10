@@ -11,6 +11,6 @@ U can see it at [the project page](http://biaobiaoqi.me/Love).
 
 * 1.Added background music using [soundmanager2](http://www.schillmania.com/projects/soundmanager2/).
 * 2.Added waiting process before music is loaded.
-* 3.Added full screen mode.
+* 3.~~Added full screen mode~~.(some browers do not support.. I don't understand. Some one can help me?)
 
 Welcome to customize it by yourself;)

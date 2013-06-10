@@ -126,10 +126,10 @@
 			id.style.display =""; 
 
 			//full screen
-			screenfull && screenfull.request();
+			//screenfull && screenfull.request();
 
             //hide button
-            document.getElementById("start_btn").remove();
+            document.getElementById("start_btn").style.display = "none";
 
 			//start animation
 
@@ -150,7 +150,6 @@
 				$("#copyright").css("bottom", "10px");
 			    document.execCommand("stop");
 			} else {
-
 				startHeartAnimation();
 
 				setTimeout(function () {
