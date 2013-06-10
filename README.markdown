@@ -1,13 +1,16 @@
 ###Background
 This project is based on hackerzhou's Love project(http://github.com/hackerzhou/Love).
 
-I've made some modifications to this project to send it as present for my girl's graduation.
+I've made some modifications to this project to send it as present for my girl's graduation and out four year anniversary.
 
-Before this project, I knowed little about fronted development. What I had modified or added is straightforward. There maybe even some errors.
+Before this project, I knowed little about fronted development. What I had modified or added is straightforward, there maybe even some errors. What ever, I consider it as a good try.
 
-I'll improve it some time later.
+U can see it at [the project page](http://biaobiaoqi.me/Love).
 
-U can see it at [my site](http://biaobiaoqi.me/Love)
-###What I've done
-* 1.Add background music
-* ~~2.Add full screen mode~~
+###What's new in this version
+
+* 1.Added background music using [soundmanager2](http://www.schillmania.com/projects/soundmanager2/).
+* 2.Added waiting process before music is loaded.
+* 3.Added full screen mode.
+
+Welcome to customize it by yourself;)
