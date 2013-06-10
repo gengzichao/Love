@@ -23,7 +23,7 @@
 </head>
 
 <body>
-	<div class="centered" id="loading"> <h1>正在加载...</h1></div>
+	<div class="centered" id="loading"> <h1>LOADING...</h1></div>
 	<button id="start_btn" class="btn btn-primary btn-large centered" style="text-align:center;" >START</button>
 
 	<div id="mainDiv">
@@ -100,7 +100,8 @@
 		function initMP3() {
 	        MUSIC = soundManager.createSound({
 	            id: 'bgmusic',
-	           	url: 'music/xiaojiuwo.mp3',
+	           	url: 'music/xiaojiuwocut.mp3',
+	           	loops: 1000,
 		        onload: function() {
 		            setTimeout(function() {
 		            	//background music loading completed
@@ -109,6 +110,7 @@
 
 		            }, 3000);
 		        }
+
 	        });
 	        MUSIC.load();
 	    }
@@ -119,6 +121,7 @@
 
 		document.getElementById("start_btn").onclick = function () {
             //music
+
             MUSIC.play();
             
             //show code
